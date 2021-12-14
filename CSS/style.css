@@ -38,6 +38,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     display: flex;
+    align-items: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -88,13 +89,13 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background-size: #f77062;
-    color: #fff;
-
+    background: #f77062;
+    color: rgb(255, 255, 255);
 }
 
 .button:hover {
     background: #4837ff;
+    scale: 1.03;
     transition: all 0.3s ease;
 }
 
@@ -145,7 +146,7 @@
 
     }
 
-    navbar__toggle.bar {
+    .navbar__toggle.bar{
         width: 25px;
         height: 3px;
         margin: 5px auto;
@@ -186,15 +187,13 @@
         margin: 0;
     }
 
-    .navbar__toggle .bar{
+    .navbar__toggle .bar {
         display: block;
         cursor: pointer;
-
-    }
+        }
 
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
-
     }
 
     #mobile-menu.is-active .bar:nth-child(1) {
