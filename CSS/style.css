@@ -89,12 +89,12 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #ce4f41;
+    background: #f77062;
     color: rgb(255, 255, 255);
 }
 
 .button:hover {
-    background: #3e8d86;
+    background: #4837ff;
     scale: 1.03;
     transition: all 0.3s ease;
 }
@@ -146,7 +146,7 @@
 
     }
 
-    .navbar__toggle.bar{
+    .bar {
         width: 25px;
         height: 3px;
         margin: 5px auto;
