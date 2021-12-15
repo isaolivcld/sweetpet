@@ -7,3 +7,12 @@ menu.addEventListener('click', function () {
     menuLinks.classList.toggle('active');
 
 });
+
+const scrollToTop = document.getElementById("btnscrollToTop");
+
+scrollToTop.addEventListener("click", function (){
+    window.scrollTo ({
+        top:0,
+        behavior: "smooth"
+    })
+})
