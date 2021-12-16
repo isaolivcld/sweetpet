@@ -606,29 +606,22 @@ main__img--container {
 
 /* Scroll to Top button */
 
-#arrow {
-    right: 80px;
-    bottom: 120px;
+#btnscrollToTop{
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    right: 50px;
+    bottom: 50px;
     width: 50px;
     height: 50px;
-    color: #fff;
-    background: #3C05FF;
     border-radius: 50%;
     cursor: pointer;
+  background: rgb(88, 22, 211);
+    
 }
 
-#arrow:hover {
-    transform: scale(1.075);
-    transition: 0.1s ease-in;
+#btnscrollToTop:active {
+    background: #4837ff;
 }
 
-#arrow:active {
-    background-color: #622799;
-}
 
 /* Mobile Footer */
 

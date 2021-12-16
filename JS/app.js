@@ -8,11 +8,13 @@ menu.addEventListener('click', function () {
 
 });
 
-const scrollToTop = document.getElementById("btnscrollToTop");
+const btnScrollToTop = document.getElementById("btnscrollToTop");
 
-scrollToTop.addEventListener("click", function (){
-    window.scrollTo ({
-        top:0,
+btnScrollToTop.addEventListener("click", function () {
+
+    window.scrollTo({
+        top: 0,
+        left: 0,
         behavior: "smooth"
     })
 })
