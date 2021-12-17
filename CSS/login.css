@@ -110,20 +110,101 @@
 /* Email register */
 
 
-.email__register__container {
+.register__container {
   width: 600px;
-  height: 600px;
-  background-color: #f0850c;
+  height: 400px;
   margin: auto;
+  margin-top: 100px;
   padding: auto;
   align-items: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-.email__register{
-  position:relative;
-  float: left;
-  width: 100%;
-  height:auto;
-  margin-top: 20px;
-  text-align:center;
+.form__signup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.terms__and__services {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin: 10px;
+  background-color: #f0efefd2;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #a115cc;
+  color: rgb(255, 255, 255);
+  padding: 1rem 78px;
+  font-family: Montserrat, sans-serif;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+button:hover {
+  transform: scale(1.055);
+  transition: all 0.1s ease;
+}
+
+button:active {
+
+  background: #3C05FF;
+}
+
+h2 {
+  color: #a115cc;
+  text-align: center;
+  margin: 20px;
+}
+
+.link__login {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 10px auto;
+}
+
+.link__login:hover {
+  color: #b677c9;
+}
+
+@media screen and (max-width: 960px) {
+
+  .register__container {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    margin:auto;
+    margin-top:100px;
+    padding: auto;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  input{
+    background-color: #f0efefd2;
+    padding: 30px auto;
+  }
+
+  .terms__and__services{
+    margin:20px auto;
+  }
+
 }

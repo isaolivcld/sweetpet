@@ -25,7 +25,7 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links"> Home </a>
+                    <a href="/index.html" class="navbar__links"> Home </a>
                 </li>
                 <li class="navbar__item">
                     <a href="../Pet love/products.html" class="navbar__links"> Products </a>
@@ -37,18 +37,24 @@
         </div>
     </nav>
 
-    <div class="register__container
-    ">
-        <form class="email__register__container">
-            <div class="email__register">
-                <input type="email" placeholder="e-mail" required>
+    <div class="register__container">
+        <form class="form__signup">
+            <h2>Sign Up</h2>
+
+            <input type="email" required placeholder="e-mail">
+
+            <input type="password" required placeholder="password">
+
+            <input type="password" required placeholder="confirm password">
+
+            <div class="terms__and__services">
+                <div class="checkbox">
+                    <input required type="checkbox" name="terms&services">
+                    <label>I read and agree with the terms of services</label>
+                </div>
+                <button class="btn__signup" type="submit">SIGN UP</button>
             </div>
-            <div class="email__register">
-                <input type="password" placeholder="password" required>
-            </div>
-            <div class="email__register">
-                <input type="password" placeholder="confirm password" required>
-            </div>
+            <a href="/" class="link__login">Already have an account? Sign In Here</a>
         </form>
     </div>
 
