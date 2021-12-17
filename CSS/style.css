@@ -408,20 +408,21 @@ main__img--container {
     height: 525px;
     width: 400px;
     border-radius: 4px;
-    background: linear-gradient(to top, rgba (0, 0, 0, 0, )0%, rgba(17, 17, 17, 0.349)100%);
-    background-image: url('../Images/pic7.png');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0)0%,
+            rgba(17,17,17,0.6)100%),url('../Images/pic3.jpg');
     background-size: cover;
     position: relative;
     color: #fff;
 }
 
 .services__card:nth-child(2) {
-    background-image: url('../Images/pic9.png');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0)0%,
+    rgba(17,17,17,0.6)100%),url('../Images/pic4.jpg');
 }
 
 .services__card:nth-child(3) {
-    background-image: url('../Images/pic12.png');
-
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0)0%,
+    rgba(17,17,17,0.6)100%),url('../Images/pic11.jpg');
 }
 
 .services h2 {
@@ -662,6 +663,22 @@ main__img--container {
         color: #aa7be9;
     }
 
+    #btnscrollToTop{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+      background: rgb(88, 22, 211);
+        
+    }
+    
+    #btnscrollToTop:active {
+        background: #4837ff;
+    }
+
 
 }
 
@@ -687,3 +704,11 @@ main__img--container {
     }
 
 }
+
+/* Dark Mode */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
