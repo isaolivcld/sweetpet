@@ -5,7 +5,35 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Dark mode */
+.darkmode{
+    background: #2b2929;
+}
 
+.btn__darkmode {
+    color: black;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.btn__darkmode:hover{
+    background: black;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+.btn__darkmode:active {
+    transform: scale(0.85);
+}
+
+
+
+/* nav bar */
 
 .navbar {
     background-color: #ffffff;
@@ -705,10 +733,6 @@ main__img--container {
 
 }
 
-/* Dark Mode */
 
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
+
+ 

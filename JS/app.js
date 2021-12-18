@@ -28,3 +28,6 @@ btnScrollToTop.addEventListener("click", function () {
 
 const darktheme = document.getElementsByClassName ('darkmode');
 
+darktheme.addEventListener("click", function() {
+    var darkmode = document.darkmode
+} )
